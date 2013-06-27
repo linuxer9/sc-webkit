@@ -1,0 +1,15 @@
+:: Software Center
+===========================
+
+ this program is simplified and Webkit based Software center allows you to install, remove
+ and search programs.. with a nice GUI based on design off debi control center.
+ the goal of this program is to provide an environment allows user to control packages easily.
+ This program works on debian based systems.. but, we will soon look at supporting rpm based systems. 
+ 
+:: Updates
+===========================
+
+
+:: contributors
+===========================
+ Mohamed Mohsen (aka linuxer9)

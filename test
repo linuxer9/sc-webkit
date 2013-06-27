@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo rm -rf /usr/lib/sc
+sudo cp -R usr /
+/usr/lib/sc/webkit_gui
+
