@@ -73,7 +73,25 @@ class sc:
 			html=html.replace("{DIR_dir}", "ltr")
 		#Aتحديد اللغة في الملف  
 		html=html.replace("{LANG_lang}", lang)
-		html=html.replace("{string_1}", _("Featured"))
+		translation = [ ["{string_1}","Featured"],
+							 ["{string_2}","Internet"],
+							 ["{string_3}","Multimedia"],
+							 ["{string_4}","Graphics"],
+							 ["{string_5}","Office"],
+							 ["{string_6}","Games"],
+							 ["{string_7}","Utility"],
+							 ["{string_8}","Islamic"],
+							 ["{string_9}","System"],
+							 ["{string_10}","Fonts"],
+							 ["{string_11}","Education"],
+							 ["{string_12}","Development"],
+							 ["{remove_str}","remove"],
+							 ["{install_str}","install"],
+							 ["{details_str}","details"]
+
+		]
+		for i in translation:
+			html=html.replace(i[0], _(i[1]))
 		return html
 		
 	def functions(self,view, frame, req, data=None):
