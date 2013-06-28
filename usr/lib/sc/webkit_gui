@@ -27,8 +27,8 @@ def print_timing(func):
 
 # i18n
 gettext.install("sc", "/usr/share/locale")
-
-
+program = _("software center")
+version = '0.1'
    
 class sc:
 	def __init__(self):
@@ -36,7 +36,7 @@ class sc:
 	def frontend(self):
 		self.window = gtk.Window()
 		self.window.connect('destroy', gtk.main_quit)
-		self.window.set_title(_("software center"))
+		self.window.set_title(program)
 		#self.window.set_icon("software-center")
 		self.window.set_size_request(800, 620)
 		self.window.set_position(gtk.WIN_POS_CENTER)
@@ -109,27 +109,10 @@ class sc:
 		if ida=="about":
 			'''launch About dialog
 			ida==about فتح صندوق حوار عن البرنامج'''
-			about = gtk.AboutDialog()
-	        	about.set_program_name(_("software center"))
-	        	about.set_version("0.1")
-	        	about.set_license('''This program is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+			
+			text = _('this program is simplified and Webkit based Software center allows you to install, remove and search programs.. with a nice GUI based on design off debi control center.This program licensed under the terms of GPL 2 or newer version.')
+			self.browser.execute_script("show_about('%s','%s','%s')" %(program, version, text))
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-	
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-MA 02110-1301, USA. ''')
-	        	about.set_authors(["M.Hanny sabbagh <hanny@hotmail.com>","Mohamed Mohsen <linuxer9@gmail.com>"])
-	        	about.set_comments(_("software center"))
-	        	about.run()
-	        	about.destroy()
 	        	
 	        	return True
 		if ida=="cat":

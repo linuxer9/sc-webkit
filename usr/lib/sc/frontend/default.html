@@ -322,20 +322,25 @@ $("div[id=packs_"+ i + "]").empty();
 }
 
 function show_package(Name) {
-
-var ni = document.getElementById('dim_site');
-var newdiv = document.createElement('div');
-newdiv.setAttribute('id',Name);
-newdiv.setAttribute('class', "dim");
-ni.innerHTML = '';
-newdiv.innerHTML = '<div class="dialog"> <div class="close_button" onclick="close_package()"></div> </div>';
-ni.appendChild(newdiv);
-
-$("#"+Name).fadeIn();
-
+show_page(Name, " ");
 }
 
-function close_package() {
+function show_about(program, version,Text) {
+show_page('about', "<div class='about_img'> </div> <div class='about_text'><h3>"+program+ ' '+version+"</h3><p>"+Text+"</p> </div> ");
+}
+
+function show_page(id, html) {
+var ni = document.getElementById('dim_site');
+var newdiv = document.createElement('div');
+newdiv.setAttribute('id',id);
+newdiv.setAttribute('class', "dim");
+ni.innerHTML = '';
+newdiv.innerHTML = '<div class="dialog">'+ html + '<div class="close_button" onclick="close_page()"></div></div>';
+ni.appendChild(newdiv);
+
+$("#"+id).fadeIn();
+}
+function close_page() {
 $(".dialog").slideUp();
 $(".dim").fadeOut("normal", function() {
 
