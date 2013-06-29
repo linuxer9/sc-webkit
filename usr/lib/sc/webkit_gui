@@ -82,9 +82,8 @@ class sc:
 							 ["{string_7}","Utility"],
 							 ["{string_8}","Islamic"],
 							 ["{string_9}","System"],
-							 ["{string_10}","Fonts"],
-							 ["{string_11}","Education"],
-							 ["{string_12}","Development"],
+							 ["{string_10}","Education"],
+							 ["{string_11}","Development"],
 							 ["{remove_str}","remove"],
 							 ["{install_str}","install"],
 							 ["{details_str}","details"]
@@ -146,9 +145,8 @@ class sc:
 		elif category_num == 7 : category = "7-acc.list"
 		elif category_num == 8 : category = "8-islamic.list"
 		elif category_num == 9 : category = "9-tools.list"
-		elif category_num == 10: category = "10-fonts.list"
-		elif category_num == 11: category = "11-education.list"
-		elif category_num == 12: category = "12-development.list"
+		elif category_num == 11: category = "10-education.list"
+		elif category_num == 12: category = "11-development.list"
 		category = open("/usr/lib/sc/cats/" + category).read().split()
 		
 		category = [ i for i in category if i in cache ]

@@ -159,11 +159,12 @@
 						</div>
 						</div>
 					</div>					
+
 					
 					<div id="tab-10" class="tab">
 						<article>
 							<div class="text-section">
-								<img id="solgan" src="icons/fonts.svg" />
+								<img id="solgan" src="icons/science.svg" />
 								<h1>{string_10}</h1>
 
 							</div>
@@ -173,31 +174,17 @@
 						</div>
 						</div>
 					</div>		
-					
+										
 					<div id="tab-11" class="tab">
 						<article>
 							<div class="text-section">
-								<img id="solgan" src="icons/science.svg" />
+								<img id="solgan" src="icons/development.svg" />
 								<h1>{string_11}</h1>
 
 							</div>
 						</article>
 						<div id="contents">
 						<div id="packs_11">
-						</div>
-						</div>
-					</div>		
-										
-					<div id="tab-12" class="tab">
-						<article>
-							<div class="text-section">
-								<img id="solgan" src="icons/development.svg" />
-								<h1>{string_12}</h1>
-
-							</div>
-						</article>
-						<div id="contents">
-						<div id="packs_12">
 						</div>
 						</div>
 					</div>
@@ -241,9 +228,7 @@
 				<li>
 					<a onclick="location.href='cat://11'" href="#tab-11" class="ico"><span>{string_11}</span><em></em></a>
 				</li>
-				<li>
-					<a onclick="location.href='cat://12'" href="#tab-12" class="ico"><span>{string_12}</span><em></em></a>
-				</li>
+
 			</ul>
 			
 		</aside>
@@ -316,7 +301,7 @@ $("span[class=desc]").remove();
 //desc_loaded = [];
 }
 function cats_empty() {
-for (i in [1,2,3,4,5,6,7,8,9,10,11,12]) {
+for (i in [1,2,3,4,5,6,7,8,9,10,11]) {
 $("div[id=packs_"+ i + "]").empty();
 }
 }
