@@ -29,7 +29,8 @@ def print_timing(func):
 gettext.install("sc", "/usr/share/locale")
 program = _("software center")
 version = '0.1'
-   
+categories = ["featured","internet","multimedia","graphics","office","games",
+"islamic","tools","education","development"]
 class sc:
 	def __init__(self):
 		self.frontend()
@@ -79,11 +80,10 @@ class sc:
 							 ["{string_4}","Graphics"],
 							 ["{string_5}","Office"],
 							 ["{string_6}","Games"],
-							 ["{string_7}","Utility"],
-							 ["{string_8}","Islamic"],
-							 ["{string_9}","System"],
-							 ["{string_10}","Education"],
-							 ["{string_11}","Development"],
+							 ["{string_7}","Islamic"],
+							 ["{string_8}","System"],
+							 ["{string_9}","Education"],
+							 ["{string_10}","Development"],
 							 ["{remove_str}","remove"],
 							 ["{install_str}","install"],
 							 ["{details_str}","details"]
@@ -136,18 +136,10 @@ class sc:
 		
 	def show_category(self, category_num):
 		self.browser.execute_script("clear_category(%s)" %(str(category_num)))
-		if   category_num == 1 : category = "1-featured.list"
-		elif category_num == 2 : category = "2-internet.list"
-		elif category_num == 3 : category = "3-multimedia.list"
-		elif category_num == 4 : category = "4-graphics.list"
-		elif category_num == 5 : category = "5-office.list"
-		elif category_num == 6 : category = "6-games.list"
-		elif category_num == 7 : category = "7-acc.list"
-		elif category_num == 8 : category = "8-islamic.list"
-		elif category_num == 9 : category = "9-tools.list"
-		elif category_num == 11: category = "10-education.list"
-		elif category_num == 12: category = "11-development.list"
-		category = open("/usr/lib/sc/cats/" + category).read().split()
+
+		category = str(category_num)+"-" + categories[category_num-1] + ".list"
+		
+		category = open("/usr/lib/sc/categories/" + category).read().split()
 		
 		category = [ i for i in category if i in cache ]
 		category.sort()

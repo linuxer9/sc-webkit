@@ -13,6 +13,8 @@
 <body id="page">
 <!-- TODO Feature
 <div class="dim"><div class="dialog"></div></div>
+
+
 -->	
 <div id="dim_site"></div>
 	<div id="wrapper">
@@ -118,10 +120,11 @@
 						</div>
 					</div>
 					
+					
 					<div id="tab-7" class="tab">
 						<article>
 							<div class="text-section">
-								<img id="solgan" src="icons/acc.svg" />
+								<img id="solgan" src="icons/islamic.svg" />
 								<h1>{string_7}</h1>
 
 							</div>
@@ -135,7 +138,7 @@
 					<div id="tab-8" class="tab">
 						<article>
 							<div class="text-section">
-								<img id="solgan" src="icons/islamic.svg" />
+								<img id="solgan" src="icons/tools.svg" />
 								<h1>{string_8}</h1>
 
 							</div>
@@ -144,12 +147,13 @@
 						<div id="packs_8">
 						</div>
 						</div>
-					</div>
+					</div>					
+
 					
 					<div id="tab-9" class="tab">
 						<article>
 							<div class="text-section">
-								<img id="solgan" src="icons/tools.svg" />
+								<img id="solgan" src="icons/science.svg" />
 								<h1>{string_9}</h1>
 
 							</div>
@@ -158,33 +162,18 @@
 						<div id="packs_9">
 						</div>
 						</div>
-					</div>					
-
-					
+					</div>		
+										
 					<div id="tab-10" class="tab">
 						<article>
 							<div class="text-section">
-								<img id="solgan" src="icons/science.svg" />
+								<img id="solgan" src="icons/development.svg" />
 								<h1>{string_10}</h1>
 
 							</div>
 						</article>
 						<div id="contents">
 						<div id="packs_10">
-						</div>
-						</div>
-					</div>		
-										
-					<div id="tab-11" class="tab">
-						<article>
-							<div class="text-section">
-								<img id="solgan" src="icons/development.svg" />
-								<h1>{string_11}</h1>
-
-							</div>
-						</article>
-						<div id="contents">
-						<div id="packs_11">
 						</div>
 						</div>
 					</div>
@@ -225,9 +214,7 @@
 				<li>
 					<a onclick="location.href='cat://10'" href="#tab-10" class="ico"><span>{string_10}</span><em></em></a>
 				</li>
-				<li>
-					<a onclick="location.href='cat://11'" href="#tab-11" class="ico"><span>{string_11}</span><em></em></a>
-				</li>
+
 
 			</ul>
 			
@@ -301,7 +288,7 @@ $("span[class=desc]").remove();
 //desc_loaded = [];
 }
 function cats_empty() {
-for (i in [1,2,3,4,5,6,7,8,9,10,11]) {
+for (i in [1,2,3,4,5,6,7,8,9,10]) {
 $("div[id=packs_"+ i + "]").empty();
 }
 }
