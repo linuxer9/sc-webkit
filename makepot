@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xgettext --language=HTML --keyword=_ --output=sc.pot /usr/lib/sc/webkit_gui
+

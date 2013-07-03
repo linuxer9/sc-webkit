@@ -1,8 +1,13 @@
+abiword
+calligra
+gnucash
+libreoffice
 libreoffice-math
 libreoffice-writer
 libreoffice-emailmerge
 libreoffice-gtk
 libreoffice-core
+libreoffice-templates
 openoffice.org-gtk
 openoffice.org-base
 openoffice.org-calc

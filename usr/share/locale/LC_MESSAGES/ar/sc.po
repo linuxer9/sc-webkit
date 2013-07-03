@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-03 13:39+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: hannysabbagh <hannysabbagh@hotmail.com>\n"
+"Language-Team: ar <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/lib/sc/webkit_gui:30
+msgid "software center"
+msgstr "مركز البرمجيات"
+
+#: /usr/lib/sc/webkit_gui:112
+msgid ""
+"this program is simplified and Webkit based Software center allows you to "
+"install, remove and search programs.. with a nice GUI based on design off "
+"debi control center.This program licensed under the terms of GPL 2 or newer "
+"version."
+msgstr ""
+"هذا البرنامج هو مركز برمجيات مبسط ومبني بواسطة Webkit يسمح لك بـ"
+"تثبيت، إزالة، والبحث عن البرامج.. بواجهة رسومية جميلة بتصميم مستوحى من"
+"مركز تحكم ديبي. هذا البرنامج مرخص تحت شروط GPL 2 أو إصدار"
+"أحدث"
