@@ -74,23 +74,23 @@ class sc:
 			html=html.replace("{DIR_dir}", "ltr")
 		#Aتحديد اللغة في الملف  
 		html=html.replace("{LANG_lang}", lang)
-		translation = [ ["{string_1}","Featured"],
-							 ["{string_2}","Internet"],
-							 ["{string_3}","Multimedia"],
-							 ["{string_4}","Graphics"],
-							 ["{string_5}","Office"],
-							 ["{string_6}","Games"],
-							 ["{string_7}","Islamic"],
-							 ["{string_8}","System"],
-							 ["{string_9}","Education"],
-							 ["{string_10}","Development"],
-							 ["{remove_str}","remove"],
-							 ["{install_str}","install"],
-							 ["{details_str}","details"]
+		translation = [ ["{string_1}",_("Featured")],
+							 ["{string_2}",_("Internet")],
+							 ["{string_3}",_("Multimedia")],
+							 ["{string_4}",_("Graphics")],
+							 ["{string_5}",_("Office")],
+							 ["{string_6}",_("Games")],
+							 ["{string_7}",_("Islamic")],
+							 ["{string_8}",_("System")],
+							 ["{string_9}",_("Education")],
+							 ["{string_10}",_("Development")],
+							 ["{remove_str}",_("remove")],
+							 ["{install_str}",_("install")],
+							 ["{details_str}",_("details")]
 
 		]
 		for i in translation:
-			html=html.replace(i[0], _(i[1]))
+			html=html.replace(i[0], i[1])
 		return html
 		
 	def functions(self,view, frame, req, data=None):

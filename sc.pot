@@ -3,76 +3,80 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-06 16:37+0200\n"
-"PO-Revision-Date: 2013-07-06 16:41+0200\n"
-"Last-Translator: Mohamed Mohsen <linuxer9@gmail.com>\n"
-"Language-Team: ar <LL@li.org>\n"
-"Language: ar\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:30
 msgid "software center"
-msgstr "مركز البرمجيات"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:77
 msgid "Featured"
-msgstr "مميزة"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:78
 msgid "Internet"
-msgstr "إنترنت"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:79
 msgid "Multimedia"
-msgstr "وسائط متعددة"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:80
 msgid "Graphics"
-msgstr "رسوميات"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:81
 msgid "Office"
-msgstr "مكتب"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:82
 msgid "Games"
-msgstr "ألعاب"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:83
 msgid "Islamic"
-msgstr "إسلامية"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:84
 msgid "System"
-msgstr "نظام"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:85
 msgid "Education"
-msgstr "تعليمية"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:86
 msgid "Development"
-msgstr "تطويرية"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:87
 msgid "remove"
-msgstr "إزالة"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:88
 msgid "install"
-msgstr "تثبيت"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:89
 msgid "details"
-msgstr "تفاصيل"
+msgstr ""
 
 #: /home/linuxer9/debi-control-center2-master/New_sc/usr/lib/sc/webkit_gui.py:112
-msgid "this program is simplified and Webkit based Software center allows you to install, remove and search programs.. with a nice GUI based on design off debi control center.This program licensed under the terms of GPL 2 or newer version."
-msgstr "هذا البرنامج هو مركز برمجيات مبسط ومبني بواسطة Webkit يسمح لك بـتثبيت، إزالة، والبحث عن البرامج.. بواجهة رسومية جميلة بتصميم مستوحى منمركز تحكم ديبي. هذا البرنامج مرخص تحت شروط GPL 2 أو إصدارأحدث"
-
+msgid ""
+"this program is simplified and Webkit based Software center allows you to "
+"install, remove and search programs.. with a nice GUI based on design off "
+"debi control center.This program licensed under the terms of GPL 2 or newer "
+"version."
+msgstr ""
