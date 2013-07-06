@@ -1,4 +1,4 @@
 #!/bin/bash
 
-xgettext --language=HTML --keyword=_ --output=sc.pot /usr/lib/sc/webkit_gui
+xgettext  --keyword=_ --output=sc.pot $PWD/usr/lib/sc/webkit_gui.py
 
